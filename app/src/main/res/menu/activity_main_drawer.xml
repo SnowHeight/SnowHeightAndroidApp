@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ReadSdData"
+            android:icon="@drawable/ic_loadsddata_foreground"
+            android:title="@string/menu_LoadSdData" />
+        <item
+            android:id="@+id/nav_DataDiagram"
+            android:icon="@drawable/ic_menu_diagram_foreground"
+            android:title="@string/menu_DataDiagram" />
+        <item
+            android:id="@+id/nav_ReadEpromSettings"
+            android:icon="@drawable/ic_menu_readepromsettings_foreground"
+            android:title="@string/menu_ReadEpromSettings" />
+
+        <item
+            android:id="@+id/nav_SendEpromSettings"
+            android:icon="@drawable/ic_menu_sendepromsettings_foreground"
+            android:title="@string/menu_SendEpromSettings"/>
+    </group>
+</menu>

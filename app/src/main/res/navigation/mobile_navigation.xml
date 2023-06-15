@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_ReadSdData">
+
+    <fragment
+        android:id="@+id/nav_ReadSdData"
+        android:name="at.jamo.pp_snowheightapp.ui.home.ReadSdDataFragment"
+        android:label="@string/menu_LoadSdData"
+        tools:layout="@layout/fragment_load_sd_data" />
+
+    <fragment
+        android:id="@+id/nav_DataDiagram"
+        android:name="at.jamo.pp_snowheightapp.ui.gallery.DataDiagramFragment"
+        android:label="@string/menu_DataDiagram"
+        tools:layout="@layout/fragment_datadiagram" />
+
+    <fragment
+        android:id="@+id/nav_ReadEpromSettings"
+        android:name="at.jamo.pp_snowheightapp.ui.slideshow.ReadEpromSettingsFragment"
+        android:label="@string/menu_ReadEpromSettings"
+        tools:layout="@layout/fragment_read_eprom_settings" />
+
+    <fragment
+        android:id="@+id/nav_SendEpromSettings"
+        android:name="at.jamo.pp_snowheightapp.ui.slideshow.ReadEpromSettingsFragment"
+        android:label="@string/menu_SendEpromSettings"
+        tools:layout="@layout/fragment_sent_eprom_settings" />
+</navigation>
